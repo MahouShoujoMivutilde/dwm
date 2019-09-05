@@ -14,8 +14,8 @@ static const char sel_bg[] = "#2b2522";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { norm_fg,   norm_bg,   norm_bg},
-	[SchemeSel]  = { norm_fg,   sel_bg,    norm_bg},
+	[SchemeNorm] = { sel_fg,   norm_bg,   norm_bg},
+	[SchemeSel]  = { sel_fg,   sel_bg,    norm_bg},
 };
 
 /* tagging */
