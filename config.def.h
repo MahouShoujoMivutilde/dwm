@@ -26,8 +26,9 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class      instance    title       tags mask     isfloating   monitor */
-	{ NULL,     NULL,       NULL,         0,              0,           -1 },
+	/* class                 instance    title       tags mask       isfloating   monitor */
+	{ NULL,                  NULL,       NULL,         0,            0,           -1 },
+	{ "TelegramDesktop",     NULL,       NULL,         1 << 8,       0,           -1 },
 };
 
 /* layout(s) */
