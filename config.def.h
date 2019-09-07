@@ -43,6 +43,7 @@ static const Rule rules[] = {
 	{ NULL,                  NULL,       NULL,         0,            0,           -1 },
 	{ "TelegramDesktop",     NULL,       NULL,         1 << 8,       0,           -1 },
 	{ "discord",             NULL,       NULL,         1 << 8,       0,           -1 },
+	{ "qBittorrent",         NULL,       NULL,         1 << 8,       0,           -1 },
 };
 
 /* layout(s) */
